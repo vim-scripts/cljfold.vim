@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4412
+
+cljfold.vim
+
+This plugin is for automagic folding of λ clojure code based on 'foldwords' that are the start of code-blocks.
+
+This defaults to 'def' and 'ns' via
+
+let g:clojure_foldwords = "def,ns"
+
+by Greg Berenfield with much taken from Steve Losh and Meikel Brandmeyer
+
+Source/bugs/latest version on github @ https://github.com/gberenfield/cljfold.vim
